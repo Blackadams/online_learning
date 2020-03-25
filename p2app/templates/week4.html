@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+
+        {%block content%}
+
+<br>
+
+
+
+
+ <!-- markdown file -->
+
+
+
+
+
+
+  {% for practice in practices %} 
+
+<div class="card-container" style="margin-top: 145px;" >
+  <div class="card-top learns">
+    <span class="project-type">learn</span>
+   <div class="blur2"></div>
+  </div>
+ 
+  <div class="content">
+ 
+    <div class="title">{{practice.title}}</div>
+    <div class="summary">Learn to paint from youtube channel
+                and complete the assassinn creed picture.</div>
+      
+
+      <a href="{% url 'lesson' %}">
+          
+          <button class="btn"> Practice </button>
+      
+      </a>
+    
+      
+      
+      
+   
+      
+      
+
+  </div>
+</div>
+
+    {% endfor %}
+
+
+
+
+
+
+
+
+
+    <script src="{% static 'js/scroll.js' %}"></script>
+ <script src="{% static 'js/app.js' %}"></script>
+    <script src="{% static 'js/foundation.min.js' %}"></script>
+{%endblock%}

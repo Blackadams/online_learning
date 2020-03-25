@@ -1,0 +1,118 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Earlycamp</title>
+    <meta content='earlycamp, Africa, Top IT School, School, Kenya, twitter , Android, FaceBook' name='keywords'>
+    <meta content='earlycamp is Africa’s top coding school, where we train students to become junior mobile and web developers .' name='description'>
+    <meta content='juniormoringaschool.com' name='author'>
+    <meta content='all' name='robots'>
+
+    <title>earlycamp</title>
+
+
+
+    <!-- <link href="{% static 'assets/images/meta_icons/favicon.ico' rel='shortcut icon' type='image/x-icon' %}"> -->
+   <!--  <link href="{% static 'assets/images/meta_icons/apple-touch-icon.png' rel='apple-touch-icon-precomposed' %}"> -->
+    <link href='assets/images/meta_icons/apple-touch-icon.png' rel='apple-touch-icon-precomposed'>
+   <!--  <link href="{% static 'assets/images/meta_icons/apple-touch-icon-57x57.png' rel='apple-touch-icon-precomposed' sizes='57x57' %}"> -->
+    <link href='assets/images/meta_icons/apple-touch-icon-57x57.png' rel='apple-touch-icon-precomposed' sizes='57x57'>
+    <!-- <link href="{% static 'assets/images/meta_icons/apple-touch-icon-72x72.png' rel='apple-touch-icon-precomposed' sizes='72x72' %}"> -->
+    <link href='assets/images/meta_icons/apple-touch-icon-72x72.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+   <!--  <link href="{% static 'assets/images/meta_icons/apple-touch-icon-114x114.png' rel='apple-touch-icon-precomposed' sizes='114x114' %}"> -->
+    <link href='assets/images/meta_icons/apple-touch-icon-114x114.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+   <!-- <link href="{% static 'assets/images/meta_icons/apple-touch-icon-144x144.png' rel='apple-touch-icon-precomposed' sizes='144x144' %}"> -->
+    <link href='assets/images/meta_icons/apple-touch-icon-144x144.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
+<!--    <link href="{% static 'assets/images/meta_icons/apple-touch-icon-60x60.png' rel='apple-touch-icon-precomposed' sizes='57x57' %}"> -->
+    <link href='assets/images/meta_icons/apple-touch-icon-60x60.png' rel='apple-touch-icon-precomposed' sizes='57x57'>
+  <!--   <link href="{% static 'assets/images/meta_icons/apple-touch-icon-120x120.png' rel='apple-touch-icon-precomposed' sizes='72x72' %}"> -->
+    <link href='assets/images/meta_icons/apple-touch-icon-120x120.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+   <!--  <link href="{% static 'assets/images/meta_icons/apple-touch-icon-76x76.png' rel='apple-touch-icon-precomposed' sizes='114x114' %}"> -->
+    <link href='assets/images/meta_icons/apple-touch-icon-76x76.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+    <!-- <link href="{% static 'assets/images/meta_icons/apple-touch-icon-152x152.png' rel='apple-touch-icon-precomposed' sizes='144x144' %}"> -->
+    <link href='assets/images/meta_icons/apple-touch-icon-152x152.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
+
+
+
+     {% block styles %}
+  	 <link rel="stylesheet" type="text/css" href="{% static 'css/foundation.min.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/animate.min.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/app.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/card.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/semantic.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/reveal.min.css' %}">
+
+  	 {% endblock %}
+      
+      
+      <script  src="{% static 'js/index.js' %}"></script>
+
+
+
+  	 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+     <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.0/anime.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+
+
+    <script>
+    $(document).ready(function() {
+    $(document).foundation();
+});
+    </script>
+
+  </head>
+
+  <body>
+      
+      <!-- top page -->
+  <a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+<!-- first container -->
+
+{% include "nav.html" %}
+      
+<!-- end of navbar -->
+
+<!-- end of first container -->
+      
+
+{% block content%}
+      
+      
+
+{% endblock%}
+      
+<!-- footer -->
+<footer>
+  <div class="row">
+    <div class="large-12 columns">
+     <ul>
+   <span>Got questions?</span>
+        <li><a href="#" target="blank">Click to ask <i class="fa fa-external-link" aria-hidden="true"></i>
+</a></li>
+    </ul>
+     </div>
+  </div>
+   <hr>
+ <div class="row">
+   <div class="large-12 medium-12 columns">
+        <p class="copyrght cent">Copyright &copy; <script type="text/javascript">
+                            document.write(new Date().getFullYear());
+
+                        </script> Earlycamp, Senteu Plaza,
+        6th Floor, Lenana Road, All right reserved
+        </p>
+      </div>
+ </div>
+</footer>
+
+  </body>
+</html>
